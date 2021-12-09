@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion Trail Valle de la Fueva</title>
+    </head>
+<body>  
+    <form action="mailto:infotrailvalledelafueva@gmail.com" method="get">
+    <H2>Formulario Inscripción</H2>     
+    <h3>V Edición Trail Valle de la Fueva</h3> 
+    <label for="modalidad">Seleccione modalidad de carrera</label>
+    <select id="modalidad" name="modalidad">
+        <option value="42K">42K</option>
+        <option value="35K">35K</option>
+        <option value="25K">25K</option>
+        <option value="16K">16K</option>
+        <option value="INFANTIL">INFANTIL</option>     
+     
+    </select><br><br> 
+    <fieldset>
+        <legend>Datos contacto</legend>
+        <label for="user_name">Nombre:</label><input type="text" name="name" id="nombre" maxlength="15" required><br><br>
+        <label for="apellidos">Apellidos:</label><input type="text" name="text" id="apellidos" maxlength="25" required><br><br>
+        <label for="correo electronico">Correo Electrónico</label><input type="email" name="email" id="correo electronico" required><br><br>
+        <label for="telefono">Teléfono</label><input type="text" name="Telefono"  id ="telefono" placeholder="123-456-789" required>
+    </fieldset><br>
+    <label for="talla">Selecciona tu talla de camiseta:</label>
+    <select id="talla" name="talla">
+        <option value="12">12</option>
+        <option value="14">14</option>
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+    </select><br><br>
+    <label for="comida">Comida:</label>
+    <select id="comida" name="comida">
+        <option value="SI">SI</option>
+        <option value="NO">NO</option>
+    </select><br><br>
+    <label for="comida acompañante">Comida acompañante (+10€):</label>
+    <select id="comida acompañante" name="comida acompañante">
+        <option value="SI">SI</option>
+        <option value="NO">NO</option>
+    </select><br><br>
+    <label for="Tarjeta de crédito"> Número Tarjeta de Crédito</label><input type="text" name="Tarjeta de credito"  id ="tarjeta de credito" placeholder="xxxx-xxxx-xxxx-xxxx" min="16" max="16" disabled required> 
+    <br>
+    <br>
+    <br>
+    <button type="submit">Enviar </button>
+    <button type="reset"> Limpiar </button>
+
+    </form>
+</body>
+</html>
